@@ -8,3 +8,6 @@ Then go to the 'library' directory.
   Contains example of parsing json when some of the field names do not match the names in your structure.
   Contains examples of nested json (and nested structures)
   Contains examples of storing json that contains arrays
+
+Then go to the 'tacos' directory.
+  Contains example of parsing json from a GET request to a Tacos API!
