@@ -35,7 +35,7 @@ func main() {
     fmt.Println("Could not read the body of the response")
   }
 
-  json.Unmarshal([]byte(body), &taco_recipe)
+  json.Unmarshal(body, &taco_recipe)
   printTacoRecipe(taco_recipe)
   printComponent(taco_recipe.Seasoning)
 }
